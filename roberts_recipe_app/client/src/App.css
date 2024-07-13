@@ -1,0 +1,89 @@
+.Banner{
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0 20px 0;
+}
+
+.Banner p{
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.table-container {
+  width: 50%;
+  height: 490px;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+
+.Table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Table th,
+.Table td {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: left;
+}
+
+.Table tr:hover {
+  border: 3px solid yellow;
+}
+
+.titleLink:hover {
+  cursor: pointer;
+}
+
+.upvote {
+  color: green;
+  cursor: pointer;
+}
+
+.downvote {
+  color: red;
+  cursor: pointer;
+}
+
+.Form {
+  width: 45%;
+  border: 1px black solid;
+  background-color: #d1e7dd;
+  height: 100%;
+  padding: 20px 15px 0 15px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fields label {
+  margin-bottom: 10px;
+}
+
+.form-fields input,
+.form-fields textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.error-message {
+  color: red;
+}

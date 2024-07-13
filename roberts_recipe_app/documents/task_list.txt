@@ -1,0 +1,15 @@
+To Do List
+----------
+
+
+
+
+Completed Tasks
+---------------
+-fix voting
+-change banner to just text
+-remove background image
+-change description to recipe
+-alter change vote to neutral instead of switching to down vote
+-remove color change for forum buttons
+-fix disable edit, delete, and save when click on title from HTML table
